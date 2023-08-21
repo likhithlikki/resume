@@ -4,13 +4,13 @@ html{
   
 #h_1{
     background-color: #00308F;
-    font-size: 40px;
+    font-size: 6vh;
     color:#4FFFB0;
 
 }
 .h_2{
     position: sticky;
-    top: 0;
+    top: 0vh;
     background-color: #1f1731;
     z-index: 5;
 
@@ -18,27 +18,27 @@ html{
 .h_3{
     display: inline;
     position: relative;
-    left: 900px;
+    left: 105vh;
 }
 
 .h_3:hover{
     cursor:pointer;
 }
 .h_4{
-    background-color: #edeade;
+    background-color: #dbb583;
 }
 .name{
     position: relative;
     font-family:cursive;
     font-style:italic;
-    font-size:40px;
+    font-size:6vh;
     letter-spacing: 2px;
     color: #9689f5;
 }
 .home{
     display: inline;
     border: 2px solid white;
-    box-shadow:rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #f3eae8;
     position: relative;
     bottom: 5px;
@@ -84,7 +84,7 @@ html{
     color: #001e35;
     cursor: pointer;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 #end{
