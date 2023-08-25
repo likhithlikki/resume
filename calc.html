@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="./calc.css">
+    <script src="./calc.js"></script>
+</head>
+<body>
+    <span class="cont">
+        <table>
+            <input type="text"  id="tv">
+            <tr>
+                <td><input type="button" value="C" onclick="clr()"></td>
+                <td><input type="button"value="%" onclick="disp('%')"></td>
+                <td><input type="button"value="x" onclick="clr1()"></td>
+                <td><input type="button"value="/" onclick="disp('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"value="7" onclick="disp('7')"></td>
+                <td><input type="button"value="8" onclick="disp('8')"></td>
+                <td><input type="button"value="9" onclick="disp('9')"></td>
+                <td><input type="button"value="*" onclick="disp('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"value="4" onclick="disp('4')"></td>
+                <td><input type="button"value="5" onclick="disp('5')"></td>
+                <td><input type="button"value="6" onclick="disp('6')"></td>
+                <td><input type="button"value="-" onclick="disp('-')"></td>
+
+            </tr>
+            <tr>
+                <td><input type="button"value="1" onclick="disp('1')"></td>
+                <td><input type="button"value="2" onclick="disp('2')"></td>
+                <td><input type="button"value="3" onclick="disp('3')"></td>
+                <td><input type="button"value="+" onclick="disp('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"value="00" onclick="disp('00')"></td>
+                <td><input type="button"value="0" onclick="disp('0')"></td>
+                <td><input type="button"value="." onclick="disp('.')"></td>
+                <td><input type="button"value="=" onclick="ans()"></td>
+            </tr>
+
+        </table>
+    </span>
+</body>
+</html>
