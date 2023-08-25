@@ -70,7 +70,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     margin-left: 5PX;
 }
-#p_i,.my_sk,#language,.activities,.objective,.certifications,.projects{
+#p_i,.my_sk,#language,.activities,.objective,.certifications,.projects,.webpages{
     position: relative;
     left: 100px;
     font-family: 'Times New Roman', Times, serif;
@@ -80,7 +80,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 5px;
 
 }
-#p_i:hover,.my_sk:hover,#language:hover,.activities:hover,.objective:hover,.certifications:hover,.projects:hover{
+#p_i:hover,.my_sk:hover,#language:hover,.activities:hover,.objective:hover,.certifications:hover,.projects:hover,.webpages:hover{
     color: #001e35;
     cursor: pointer;
     background-color: white;
