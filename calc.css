@@ -4,7 +4,8 @@
 
 html{
     background-image: url(./hack.avif);
-    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .cont{
