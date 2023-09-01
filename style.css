@@ -78,6 +78,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-size: 24px;
     display: inline-block;
     padding: 5px;
+    word-wrap: break-word;
+    max-width: 80%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding or other styling as desired */
 
 }
 #p_i:hover,.my_sk:hover,#language:hover,.activities:hover,.objective:hover,.certifications:hover,.projects:hover,.webpages:hover{
