@@ -37,10 +37,10 @@ html{
 }
 .home{
     display: inline;
-    border: 2px solid white;
+    border: 0.15vw solid white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #818181;
-    color: black;
+    background-color:#1D1D1D;
+    color: rgb(173, 172, 172);
     border-radius: 10px;
     margin: 0.6vw;
     padding-left: 1vw;
@@ -51,8 +51,8 @@ html{
     text-decoration: none;
 }
 .home:hover,.contact:hover,.download:hover{
-    background-color:#1D1D1D;
-    color: rgb(173, 172, 172);
+    background-color: #818181;
+    color: black;
 
 }
 a:link {
@@ -63,10 +63,10 @@ a:hover {
 }
 .contact{
     display: inline;
-    border: 2px solid white;
+    border: 0.15vw solid white;
     box-shadow:rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-    background-color: #818181;
-    color: black;
+    background-color:#1D1D1D;
+    color: rgb(173, 172, 172);
     border-radius: 10px;
     font-size:3vw;
     position: relative;
@@ -77,10 +77,10 @@ a:hover {
 }
 .download{
     display: inline;
-    border: 2px solid white;
+    border: 0.15vw solid white;
     box-shadow:rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-    background-color: #818181;
-    color: black;
+    background-color:#1D1D1D;
+    color: rgb(173, 172, 172);
     border-radius: 10px;
     font-size:3vw;
     position: relative;
