@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="container">
+        <div class="card">
+            <div class="front">
+                <form id="signupForm"> <!-- Added an ID to the form for JavaScript -->
+                    <legend>Signup</legend>
+                    <label>First Name</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Username" id="username_s" required><br><br>
+                    <label>Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password" placeholder="Password"  id="password_s"required><br>
+                    <button type="button" onclick="submitForm()" class="submit">Submit</button>
+                </form>
+                <label class="end">Already have an account</label>
+                <button type="button" onclick="rotateCard()" class="login">Login</button>
+            </div>
+            <div class="back">
+                <form>
+                    <legend>Login</legend>
+                    <label>Username</label>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Username" id="username_l" required><br><br>
+                    <label>Password</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password" placeholder="Password" id="password_l"required><br>
+                    <button type="button" onclick="submitForm()" class="submit">Submit</button>
+                </form>
+                <label class="end">No account! Let's signup</label>
+                <button type="button" onclick="rotateCard()" class="signup">Signup</button>
+            </div>
+        </div>
+   </div>
+   <script>
+    function rotateCard() {
+        const card = document.querySelector('.card');
+        card.classList.toggle('rotate');
+    }
+
+   function submitForm() {
+    event.preventDefault();
+
+    const u_s = document.getElementById('username_s').value;
+    const p_s = document.getElementById('password_s').value;
+    const u_l = document.getElementById('username_l').value;
+    const p_l = document.getElementById('password_l').value;
+
+    if ((u_s === "" || p_s === "" )&&( u_l ==="" || p_l === "")) {
+        alert("Please fill all the details");
+    } else {
+        alert('Form submitted');
+    }
+}
+
+    </script>
+</body>
+</html>
