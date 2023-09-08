@@ -4,17 +4,20 @@ html{
   
 #h_1{
     position:sticky;
-    background-color: #00308F;
+    background-color:#F5F5F5;
     font-size: 6vh;
-    color:#4FFFB0;
-
+    color:#125637;
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .h_2{
     position: sticky;
     top: 4vh;
     background-color: #F5F5F5;
     z-index: 5;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 
 }
 .h_3{
@@ -25,8 +28,11 @@ html{
     cursor:pointer;
 }
 .h_4{
-    background-color: #B6B6B4;
+    background-color: whitesmoke; /*background-color: #B6B6B4;*/
     font-size: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    animation: anim 5s linear infinite;
 }
 .name{
     position: relative;
@@ -90,16 +96,16 @@ a:hover {
 }
 #p_i,.my_sk,#language,.activities,.objective,.certifications,.projects,.webpages{
     position: relative;
-    left: 4vw;
-    font-family: 'Times New Roman', Times, serif;
+    left: 6vw;
+    font-family: cursive;
     font-weight: 50;
     font-size: 2vw;
     display: inline-block;
     padding: 5px;
-    word-wrap: break-word;
     max-width: 80%; /* Adjust the percentage as needed */
     margin: 0 auto; /* Center the box horizontally */
     padding: 20px; /* Add padding or other styling as desired */
+    align-content: center;
     
 }
 #p_i:hover,.my_sk:hover,#language:hover,.activities:hover,.objective:hover,.certifications:hover,.projects:hover,.webpages:hover{
@@ -110,15 +116,15 @@ a:hover {
     animation: anim 5s linear infinite;
 }
 #end{
-    background-color:yellow;
+    background-color:yellow; 
     padding: 7px ;
 }
 @keyframes anim{
     0%{
-        color:rgba(25, 8, 138, 0);
+        color:rgba(33, 11, 173, 0);
     }
     20%{
-        color: rgb(64, 0, 255);
+        color: rgb(56, 7, 200);
     }
     40%{
         color: rgb(251, 0, 0);
@@ -127,6 +133,6 @@ a:hover {
         color: rgb(39, 104, 21);
     }
     100%{
-        color: rgb(2, 35, 43);
+        color: rgba(33, 11, 173, 0);
     }
 }
