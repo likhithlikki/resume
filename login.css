@@ -10,8 +10,8 @@ body {
 
 .container {
     perspective: 1000px;
-    width: 27vw;
-    height: 37vh;
+    width: 400px;
+    height: 350px;
     position: relative;
 }
 
