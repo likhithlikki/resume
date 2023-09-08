@@ -5,20 +5,23 @@ html{
 #h_1{
     position:sticky;
     background-color:#F5F5F5;
-    font-size: 6vh;
+    font-size: 5vh;
     color:#125637;
     margin-bottom: 4vh;
     margin-top: 3vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .h_2{
+
     position: sticky;
     top: 4vh;
     background-color: #F5F5F5;
     z-index: 5;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-
+    font-weight:500;
+    margin-bottom: 3vh;
+    
+ 
 }
 .h_3{
     display: inline;
@@ -29,7 +32,7 @@ html{
 }
 .h_4{
     background-color: whitesmoke; /*background-color: #B6B6B4;*/
-    font-size: 2vw;
+    font-size: 2vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
     animation: anim 5s linear infinite;
@@ -99,7 +102,7 @@ a:hover {
     left: 6vw;
     font-family: cursive;
     font-weight: 50;
-    font-size: 2vw;
+    font-size: 3vw;
     display: inline-block;
     padding: 5px;
     max-width: 80%; /* Adjust the percentage as needed */
