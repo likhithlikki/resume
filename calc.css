@@ -1,19 +1,31 @@
 *{
     font-weight: bolder;
 }
+body{
+    background-image: linear-gradient(to right,blue,brown);
+}
+#h_1{
 
-html{
-    background-image: url(./hack.avif);
-    background-size:cover;
-    background-repeat: no-repeat;
+    position:sticky;
+    background-color:#F5F5F5;
+    font-size: 5vh;
+    color:#125637;
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4rem;
+    padding: 2vh 4vh 2vh 4vh;
+
 }
 
 .cont{
     position: absolute;
-    top: 250px;
-    left:1000px;
-    border: solid rgb(15, 95, 119) 9px;
+    top: 25vh;
+    left: 6.8vw;
+    border: solid rgb(15, 95, 119) 0.4rem;
     border-radius: 5px;
+    background-color: white;
+
 }
 
 input[type="button"]{
@@ -34,4 +46,20 @@ input[type="button"]:hover{
     font-size: 16px;
     transition-duration:500ms;
     border-radius: 6px;
+}
+@media (max-width: 412px) {
+    .cont {
+        top: 30vh;
+
+    }
+
+    input[type="text"] {
+        width: 82vw;
+    }
+
+    input[type="button"] {
+        height: 50px;
+        width: 20vw;
+        font-size: 20px;
+    }
 }
