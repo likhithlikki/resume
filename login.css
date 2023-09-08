@@ -1,19 +1,4 @@
-*{
-    font-weight: bolder;
-}
-body{
-    background-image: linear-gradient(to right,blue,brown);
-}
-#h_1{
-
-    position:sticky;
-    background-color:#F5F5F5;
-    font-size: 5vh;
-    color:#125637;
-    margin-bottom: 4vh;
-    margin-top: 3vh;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 4rem;body {
+body {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -98,53 +83,4 @@ legend{
     top: 2rem; /* Adjust the top position as needed */
     padding: 3px 4px;
     margin: 3px;
-}
-    padding: 2vh 4vh 2vh 4vh;
-
-}
-
-.cont{
-    position: absolute;
-    top: 25vh;
-    left: 6.8vw;
-    border: solid rgb(15, 95, 119) 0.4rem;
-    border-radius: 5px;
-    background-color: white;
-
-}
-
-input[type="button"]{
-    height: 60px;
-    width: 90px;
-    border: solid rgb(106, 240, 243) ;
-
-}
-
-input[type="text"]{
-    height: 60px;
-    width: 367px;
-    font-size: 30px;
-}
-input[type="button"]:hover{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    font-size: 16px;
-    transition-duration:500ms;
-    border-radius: 6px;
-}
-@media (max-width: 412px) {
-    .cont {
-        top: 30vh;
-
-    }
-
-    input[type="text"] {
-        width: 82vw;
-    }
-
-    input[type="button"] {
-        height: 50px;
-        width: 20vw;
-        font-size: 20px;
-    }
 }
